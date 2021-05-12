@@ -1,6 +1,8 @@
-function App() {
+import React, { useState } from 'react';
+
+const App = () => {
   return (
-    <div className="App">Memory Card Game</div>
+    <div>Memory Card</div>
   );
 }
 
