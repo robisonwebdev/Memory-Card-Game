@@ -8,7 +8,7 @@ const App = () => {
     <div id='App'>
       <Scoreboard />
       <Gameboard />
-      <Footer />
+      <Footer address={'https://github.com/robisonwebdev'} name={'David Robison'} />
     </div>
   );
 }
