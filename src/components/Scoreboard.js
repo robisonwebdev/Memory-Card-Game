@@ -5,8 +5,8 @@ const Scoreboard = (props) => {
                 <h1>Memory Game</h1>
             </div>
             <div id='scores'>
-                <p id='gameScore'>{props.gameScore}</p>
-                <p id='highScore'>{props.highScore}</p>
+                <p id='gameScore'>Score: {props.gameScore}</p>
+                <p id='highScore'>High Score: {props.highScore}</p>
             </div>
         </div>
     );
