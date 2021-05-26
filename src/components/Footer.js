@@ -1,6 +1,8 @@
-const Footer = () => {
+const Footer = (props) => {
     return (
-        <div id='Footer'>Footer</div>
+        <div id='Footer'>
+            <small>Developed by <a href={props.address} target='_blank'>{props.name}</a></small>
+        </div>
     );
 }
 
