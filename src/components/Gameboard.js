@@ -1,6 +1,6 @@
 const Gameboard = () => {
     return (
-        <div>Gameboard</div>
+        <div id='Gameboard'>Gameboard</div>
     );
 }
 
