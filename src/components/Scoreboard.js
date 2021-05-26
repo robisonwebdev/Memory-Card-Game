@@ -1,6 +1,6 @@
 const Scoreboard = () => {
     return (
-        <div>Scoreboard</div>
+        <div id="Scoreboard">Scoreboard</div>
     );
 }
 
