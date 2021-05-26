@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
+import Cards from './components/Cards';
 
 const App = () => {
   return (
-    <div>Memory Card</div>
+    <div id='App'>
+
+    </div>
   );
 }
 
