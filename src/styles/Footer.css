@@ -1,0 +1,13 @@
+#Footer {
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+a {
+    color: var(--greyDark);
+}
+
+a:hover {
+    color: black;
+}
