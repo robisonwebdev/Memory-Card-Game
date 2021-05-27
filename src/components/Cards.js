@@ -1,10 +1,10 @@
-const Cards = () => {
+const Card = () => {
     return (
-        <div className='cards'>
+        <div className='card'>
             <div className='cardImage'></div>
             <div className='cardText'></div>
         </div>
     );
 }
 
-export default Cards;
+export default Card;
