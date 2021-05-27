@@ -10,3 +10,18 @@
     height: 325px;
     width: 275px;
 }
+
+.cardImage {
+    padding-top: 15px;
+}
+
+.cardImage img {
+    border-radius: 15px;
+    height: 230px;
+    width: 230px;
+}
+
+.cardText {
+    color: white;
+    font-size: 18px;
+}
