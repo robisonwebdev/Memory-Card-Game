@@ -1,8 +1,10 @@
+import '../styles/Card.css';
+
 const Card = () => {
     return (
         <div className='card'>
-            <div className='cardImage'></div>
-            <div className='cardText'></div>
+            <div className='cardImage'>Test Image</div>
+            <div className='cardText'>Test Text</div>
         </div>
     );
 }
