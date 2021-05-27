@@ -7,7 +7,7 @@ import './styles/App.css';
 const App = () => {
   return (
     <div id='App'>
-      <Scoreboard />
+      <Scoreboard gameScore={'3'} highScore={'19'} />
       <Gameboard />
       <Footer address={'https://github.com/robisonwebdev'} name={'David Robison'} />
     </div>
