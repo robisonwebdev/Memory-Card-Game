@@ -1,6 +1,9 @@
 const Cards = () => {
     return (
-        <div className='cards'>Test</div>
+        <div className='cards'>
+            <div className='cardImage'></div>
+            <div className='cardText'></div>
+        </div>
     );
 }
 
