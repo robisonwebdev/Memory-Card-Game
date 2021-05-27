@@ -1,6 +1,10 @@
+import '../styles/Gameboard.css';
+
 const Gameboard = () => {
     return (
-        <div id='Gameboard'>Gameboard</div>
+        <div id='Gameboard'>
+
+        </div>
     );
 }
 
