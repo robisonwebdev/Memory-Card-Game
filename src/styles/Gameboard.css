@@ -1,4 +1,12 @@
 #Gameboard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: stretch;
+    flex-shrink: 1;
+
     height: 100%;
     width: 100%;
 }
