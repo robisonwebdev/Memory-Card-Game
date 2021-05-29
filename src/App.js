@@ -5,6 +5,8 @@ import Scoreboard from './components/Scoreboard';
 import './styles/App.css';
 
 const App = () => {
+  const [gameScore, setGameScore] = useState();
+
   return (
     <div id='App'>
       <Scoreboard gameScore={'3'} highScore={'19'} />
