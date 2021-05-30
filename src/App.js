@@ -5,8 +5,8 @@ import Scoreboard from './components/Scoreboard';
 import './styles/App.css';
 
 const App = () => {
-  const [gameScore, setGameScore] = useState();
-  const [highScore, setHighScore] = useState();
+  const [gameScore, setGameScore] = useState(0);
+  const [highScore, setHighScore] = useState(0);
   const [cardsSelected, setCardsSelected] = useState([]);
 
   return (
