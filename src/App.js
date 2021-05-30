@@ -7,7 +7,7 @@ import './styles/App.css';
 const App = () => {
   const [gameScore, setGameScore] = useState();
   const [highScore, setHighScore] = useState();
-  const [cardsSelected, setCardsSelected] = useState();
+  const [cardsSelected, setCardsSelected] = useState([]);
 
   return (
     <div id='App'>
