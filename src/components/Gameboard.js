@@ -3,7 +3,7 @@ import Card from './Card';
 import CardData from './CardData';
 
 const Gameboard = () => {
-    const mappedCardData = CardData.map((card) => <Card source={card.source} text={card.text} key={card.id} />);
+    const mappedCardData = CardData.map((card) => <Card {...card} key={card.id} />);
 
     return (
         <div id='Gameboard'>
