@@ -9,10 +9,14 @@ const App = () => {
   const [highScore, setHighScore] = useState(0);
   const [cardsSelected, setCardsSelected] = useState([]);
 
+  const handleClick = (value) => {
+    console.log(value);
+  }
+
   return (
     <div id='App'>
       <Scoreboard gameScore={gameScore} highScore={highScore} />
-      <Gameboard />
+      <Gameboard click={handleClick} />
       <Footer address={'https://github.com/robisonwebdev'} name={'David Robison'} />
     </div>
   );
