@@ -1,10 +1,10 @@
 import '../styles/Card.css';
 
 const Card = (props) => {
-    const { source, text } = props;
+    const { source, text, id } = props;
 
     return (
-        <div className='card' onClick={() => { console.log(text) }}>
+        <div className='card' onClick={() => props.click(id)}>
             <div className='cardImage'>
                 <img src={source} alt='' />
             </div>
