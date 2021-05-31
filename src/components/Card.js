@@ -6,7 +6,7 @@ const Card = (props) => {
     return (
         <div className='card' onClick={() => { console.log(text) }}>
             <div className='cardImage'>
-                <img src={source} />
+                <img src={source} alt='' />
             </div>
             <div className='cardText'>{text}</div>
         </div>
