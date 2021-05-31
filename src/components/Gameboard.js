@@ -2,8 +2,8 @@ import '../styles/Gameboard.css';
 import Card from './Card';
 import CardData from './CardData';
 
-const Gameboard = () => {
-    const mappedCardData = CardData.map((card) => <Card {...card} key={card.id} />);
+const Gameboard = (props) => {
+    const mappedCardData = CardData.map((card) => <Card {...card} key={card.id} click={props.click} />);
 
     return (
         <div id='Gameboard'>
