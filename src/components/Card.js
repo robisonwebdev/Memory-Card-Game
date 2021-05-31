@@ -1,12 +1,14 @@
 import '../styles/Card.css';
 
 const Card = (props) => {
+    const { source, text } = props;
+
     return (
-        <div className='card' onClick={() => { console.log(props.text) }}>
+        <div className='card' onClick={() => { console.log(text) }}>
             <div className='cardImage'>
-                <img src={props.source} />
+                <img src={source} />
             </div>
-            <div className='cardText'>{props.text}</div>
+            <div className='cardText'>{text}</div>
         </div>
     );
 }
