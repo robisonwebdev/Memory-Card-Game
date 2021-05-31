@@ -12,6 +12,7 @@ const App = () => {
   const handleClick = (value) => {
     if (cardsSelected.includes(value)) {
       console.log('Already in array!');
+      setGameScore(0);
     } else {
       setCardsSelected((currentState) => [...currentState, value]);
       setGameScore(gameScore + 1);
