@@ -13,7 +13,8 @@ const App = () => {
     if (cardsSelected.includes(value)) {
       console.log('Already in array!');
     } else {
-      setCardsSelected((currentState) => [...currentState, value]);      
+      setCardsSelected((currentState) => [...currentState, value]);
+      setGameScore(gameScore + 1);
     }
   }
 
