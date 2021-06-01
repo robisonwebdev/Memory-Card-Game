@@ -14,7 +14,7 @@ const App = () => {
       console.log('Already in array!');
       setCardsSelected([]);
       setGameScore(0);
-    } else {
+    } else if (!cardsSelected.includes(value)) {
       setCardsSelected((currentState) => [...currentState, value]);
       setGameScore(gameScore + 1);
       handleHighScore();
