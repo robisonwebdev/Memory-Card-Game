@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Footer from './components/Footer';
 import Gameboard from './components/Gameboard';
 import Scoreboard from './components/Scoreboard';
@@ -30,9 +30,13 @@ const App = () => {
     setGameScore(0);
   }
 
-  if (gameScore === 10) {
-    resetGame();
-  }
+  useEffect(() => {
+    if (gameScore === 10) {
+      resetGame();
+    }
+  }, [gameScore])
+
+  
 
   return (
     <div id='App'>
