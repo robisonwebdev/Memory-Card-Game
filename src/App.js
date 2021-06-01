@@ -19,7 +19,7 @@ const App = () => {
     } 
   }
 
-  const handleHighScore = () => {
+  function handleHighScore() {
     if (highScore <= gameScore) {
       setHighScore(highScore + 1);
     }
