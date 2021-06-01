@@ -9,14 +9,14 @@ const App = () => {
   const [highScore, setHighScore] = useState(0);
   const [cardsSelected, setCardsSelected] = useState([]);
 
-  const handleClick = (value) => {
+  function handleClick(value) {
     if (cardsSelected.includes(value)) {
       resetGame();
     } else if (!cardsSelected.includes(value)) {
       setCardsSelected((currentState) => [...currentState, value]);
       setGameScore(gameScore + 1);
       handleHighScore();
-    } 
+    }
   }
 
   function handleHighScore() {
