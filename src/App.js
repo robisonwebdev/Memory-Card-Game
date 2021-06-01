@@ -18,13 +18,18 @@ const App = () => {
       setCardsSelected((currentState) => [...currentState, value]);
       setGameScore(gameScore + 1);
       handleHighScore();
-    }
+    } 
   }
 
   const handleHighScore = () => {
     if (highScore <= gameScore) {
       setHighScore(highScore + 1);
     }
+  }
+
+  if (gameScore === 10) {
+    setCardsSelected([]);
+    setGameScore(0);
   }
 
   return (
