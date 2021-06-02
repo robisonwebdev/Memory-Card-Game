@@ -2,7 +2,7 @@
   "name": "memory-card-game",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/robisonwebdev/memory-card-game",
+  "homepage": "https://robisonwebdev.github.io/memory-card-game/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.6",
