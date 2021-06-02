@@ -1,6 +1,7 @@
 #Footer {
   background-color: var(--black);
   color: var(--white);
+  margin-top: 25px;
   padding: 10px;
   text-align: center;
   width: 100%;
