@@ -40,7 +40,7 @@ const App = () => {
 
   return (
     <div id='App'>
-      <Scoreboard gameScore={gameScore} highScore={highScore} />
+      <Scoreboard gameScore={gameScore} highScore={highScore} title={'Stargate Memory Card Game'} />
       <Gameboard click={handleClick} />
       <Footer address={'https://github.com/robisonwebdev'} name={'David Robison'} />
     </div>
