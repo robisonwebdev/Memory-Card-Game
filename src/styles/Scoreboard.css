@@ -1,16 +1,22 @@
 #scoreboard {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-    padding: 25px;
-    width: 100%;
+  padding: 25px;
+  width: 100%;
 }
 
 #scores {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+
+  color: var(--white);
+}
+
+#gameTitle h1 {
+  color: var(--gold);
 }
