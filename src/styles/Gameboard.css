@@ -1,12 +1,10 @@
 #Gameboard {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: stretch;
-    align-content: stretch;
-    flex-shrink: 1;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
