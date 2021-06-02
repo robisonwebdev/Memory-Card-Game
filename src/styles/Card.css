@@ -1,27 +1,28 @@
 .card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  flex-grow: 1;
 
-    background-color: crimson;
+  background-color: crimson;
 
-    border-radius: 10px;
-    height: 325px;
-    width: 275px;
+  border-radius: 10px;
+  height: 325px;
+  width: 275px;
 }
 
 .cardImage {
-    padding-top: 15px;
+  padding-top: 15px;
 }
 
 .cardImage img {
-    border-radius: 15px;
-    height: 230px;
-    width: 230px;
+  border-radius: 15px;
+  height: 230px;
+  width: 230px;
 }
 
 .cardText {
-    color: white;
-    font-size: 18px;
+  color: white;
+  font-size: 18px;
 }
