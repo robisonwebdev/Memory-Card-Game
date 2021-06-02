@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/robisonwebdev/memory-card-game/static/css/main.fff5d6d7.chunk.css",
+    "main.js": "/robisonwebdev/memory-card-game/static/js/main.b8318e99.chunk.js",
+    "main.js.map": "/robisonwebdev/memory-card-game/static/js/main.b8318e99.chunk.js.map",
+    "runtime-main.js": "/robisonwebdev/memory-card-game/static/js/runtime-main.bd862d8f.js",
+    "runtime-main.js.map": "/robisonwebdev/memory-card-game/static/js/runtime-main.bd862d8f.js.map",
+    "static/js/2.5a62517b.chunk.js": "/robisonwebdev/memory-card-game/static/js/2.5a62517b.chunk.js",
+    "static/js/2.5a62517b.chunk.js.map": "/robisonwebdev/memory-card-game/static/js/2.5a62517b.chunk.js.map",
+    "index.html": "/robisonwebdev/memory-card-game/index.html",
+    "static/css/main.fff5d6d7.chunk.css.map": "/robisonwebdev/memory-card-game/static/css/main.fff5d6d7.chunk.css.map",
+    "static/js/2.5a62517b.chunk.js.LICENSE.txt": "/robisonwebdev/memory-card-game/static/js/2.5a62517b.chunk.js.LICENSE.txt",
+    "static/media/Cartersamantha.36ba785d.jpg": "/robisonwebdev/memory-card-game/static/media/Cartersamantha.36ba785d.jpg",
+    "static/media/Fraiserjanet.1260e250.jpg": "/robisonwebdev/memory-card-game/static/media/Fraiserjanet.1260e250.jpg",
+    "static/media/Hammondgeorge.cd0e595b.jpg": "/robisonwebdev/memory-card-game/static/media/Hammondgeorge.cd0e595b.jpg",
+    "static/media/Jacksondaniel.5bad47f4.jpg": "/robisonwebdev/memory-card-game/static/media/Jacksondaniel.5bad47f4.jpg",
+    "static/media/Landryhank.8c914dfe.jpg": "/robisonwebdev/memory-card-game/static/media/Landryhank.8c914dfe.jpg",
+    "static/media/Maldoranvala.5fc1393e.jpg": "/robisonwebdev/memory-card-game/static/media/Maldoranvala.5fc1393e.jpg",
+    "static/media/Mitchellcameron.e4955989.jpg": "/robisonwebdev/memory-card-game/static/media/Mitchellcameron.e4955989.jpg",
+    "static/media/Quinnjonas.4aba9c14.jpg": "/robisonwebdev/memory-card-game/static/media/Quinnjonas.4aba9c14.jpg",
+    "static/media/Tealc.37dde809.jpg": "/robisonwebdev/memory-card-game/static/media/Tealc.37dde809.jpg",
+    "static/media/jackOneill.7fb34a6a.jpg": "/robisonwebdev/memory-card-game/static/media/jackOneill.7fb34a6a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bd862d8f.js",
+    "static/js/2.5a62517b.chunk.js",
+    "static/css/main.fff5d6d7.chunk.css",
+    "static/js/main.b8318e99.chunk.js"
+  ]
+}
