@@ -1,8 +1,6 @@
 import '../styles/Scoreboard.css';
 
-const Scoreboard = (props) => {
-    const { gameScore, highScore, title } = props;
-
+const Scoreboard = ({ gameScore, highScore, title }) => {
     return (
         <div id="scoreboard">
             <div id='gameTitle'>
