@@ -1,8 +1,6 @@
 import '../styles/Card.css';
 
-const Card = (props) => {
-    const { source, text, id, click } = props;
-
+const Card = ({ source, text, id, click }) => {
     return (
         <div className='card' onClick={() => click(id)}>
             <div className='cardImage'>
